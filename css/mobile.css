@@ -1,0 +1,269 @@
+body {
+  background-color: rgb(241, 243, 246);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif;
+  width: -webkit-fill-available;
+  background-color: rgb(241, 243, 246);
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.fk-header {
+  height: 102px;
+  line-height: 19.6px;
+  width: 100%;
+}
+.fk-header--blue {
+  background-color: rgb(40, 116, 240);
+}
+.fk-header__mainlogo {
+  width: 85px;
+}
+.fk-header__button {
+  padding-left: 0;
+  border: none;
+}
+.fk-header__search {
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+.fk-header__icon {
+  font-size: 15px;
+}
+
+/* ============================================ */
+
+/* section1 */
+.fk-banner1 {
+  width: 70px;
+  height: 62px;
+}
+
+.fk-category {
+  width: 110px;
+}
+.fk-categorysec {
+  margin-top: 10px;
+}
+.fk-organism-cardcollection {
+  background-color: rgb(153, 227, 242);
+  height: 476px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.fk-organism-cardcollection--darkblue {
+  background-color: rgb(40, 116, 240);
+}
+.fk-organism-cardcollection--mt {
+  margin-top: 10px;
+}
+.fk-molc-text-btn {
+  width: 375px;
+  height: 83px;
+  margin: 0px;
+  padding: 14px 8px 4px 8px;
+  display: inline;
+}
+.fk-atom-h2 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+}
+.fk-atom-h2--white {
+  color: white;
+  padding-top: 10px;
+}
+.fk-timer {
+  width: 12%;
+}
+.fk-time {
+  color: white;
+  padding-top: 10px;
+}
+.fk-atom-btn {
+  height: 34px;
+  width: 71px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  display: inline;
+}
+.fk-atom-btn--white {
+  background-color: white;
+  color: black;
+}
+.fk-molc-cards {
+  margin: 9.5px;
+  margin-right: 9.5px;
+  margin-top: 10px;
+  height: 402px;
+  background-color: white;
+}
+.fk-card {
+  padding: 0px;
+  height: 187px;
+  width: 178px;
+}
+.fk-card--body {
+  padding: 16px 16px 12px 16px;
+  border: none;
+  border-radius: 0px;
+}
+.fk-card__img {
+  height: 120px;
+  width: 92px;
+  margin-left: 27px;
+}
+.fk-card__caption-black {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.fk-card__caption-green {
+  font-size: 14px;
+  color: rgb(56, 142, 60);
+}
+.fk-hr {
+  height: "1px";
+  color: #c7bfbf;
+  margin-top: 15px;
+}
+
+/* banner */
+.fk-banner {
+  background-color: white;
+  height: 120px;
+  margin-top: 30px;
+}
+.fk-banner__img {
+  width: 120%;
+}
+.fk-banner-right {
+  padding-left: 25px;
+}
+.fk-banner-right__p {
+  padding-top: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.fk-banner-right__btn {
+  background-color: rgb(255, 94, 0);
+  border-radius: 0px;
+  width: 100px;
+  height: 35px;
+  margin-top: 0px;
+  color: white;
+  font-size: 13px;
+}
+/* featured */
+.fk-featured {
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.fk-featured--mt {
+  margin-top: 30px;
+}
+.fk-featured__h {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.fk-featured__p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: gray;
+}
+.fk-featured__img {
+  width: 100%;
+}
+.fk-imgrow {
+  margin-top: 10px;
+  padding: 0px;
+}
+.fk-imgrow__col {
+  padding: 0px;
+}
+.fk-imgrow__img {
+  padding: 0px;
+}
+.fk-imgrow__img--width3 {
+  width: 107%;
+}
+.fk-imgrow__img--width4 {
+  width: 94%;
+}
+.fk-imgrow__img--w-100 {
+  width: 100%;
+}
+.fk-imgrow__img--w-110 {
+  width: 110%;
+  height: 200px;
+}
+/* recent */
+.fk-banner--height {
+  background-color: white;
+  height: 200px;
+}
+.fk-banner--mt {
+  margin-top: 5px;
+}
+.fk-recent {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.fk-recent-hr {
+  height: "1px";
+  color: #000000;
+  margin-top: 15px;
+  padding-left: 0px !important;
+}
+.fk-recent__img {
+  width: 37%;
+  margin-left: 30px;
+}
+.fk-recent__p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: -27px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.fk-recent__rs {
+  font-size: 16px;
+  margin-left: -27px;
+}
+.fk-recent__cut {
+  font-size: 12px;
+  color: rgb(144, 144, 144);
+  text-decoration-line: line-through;
+  margin-left: 10px;
+}
+.fk-recent__cut--green {
+  color: rgb(56, 142, 60);
+  text-decoration-line: none;
+}
+.fk-last {
+  height: 50px;
+  background-color: white;
+  margin-top: 10px;
+}
+.fk-last--p {
+  padding: 15px;
+  font-size: 14px;
+  padding-left: 25px;
+  color: black;
+}
+.fk-plusicon {
+  float: right;
+  padding-right: 20px;
+}
